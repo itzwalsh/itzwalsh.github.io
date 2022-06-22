@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/itzwalsh.github.io/static/css/main.aeed9808.css",
+    "main.js": "/itzwalsh.github.io/static/js/main.0f189d71.js",
+    "static/media/kotlin.png": "/itzwalsh.github.io/static/media/kotlin.4a9988a1e4e76c17570f.png",
+    "static/media/python.png": "/itzwalsh.github.io/static/media/python.2dfe992c8ec71825b301.png",
+    "static/media/logo.png": "/itzwalsh.github.io/static/media/logo.2547d69ec8d84c5b46f3.png",
+    "static/media/csharp.png": "/itzwalsh.github.io/static/media/csharp.372929db864d8da69101.png",
+    "static/media/javascript.png": "/itzwalsh.github.io/static/media/javascript.2fe71b42505ecc37194f.png",
+    "static/media/java.png": "/itzwalsh.github.io/static/media/java.c16a7d4338f6b318a1eb.png",
+    "static/media/c.png": "/itzwalsh.github.io/static/media/c.d3ff218aab0af6b806db.png",
+    "static/media/html.png": "/itzwalsh.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/itzwalsh.github.io/static/media/css.69a82c2d9e45c933a9cb.png",
+    "index.html": "/itzwalsh.github.io/index.html",
+    "main.aeed9808.css.map": "/itzwalsh.github.io/static/css/main.aeed9808.css.map",
+    "main.0f189d71.js.map": "/itzwalsh.github.io/static/js/main.0f189d71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeed9808.css",
+    "static/js/main.0f189d71.js"
+  ]
+}
