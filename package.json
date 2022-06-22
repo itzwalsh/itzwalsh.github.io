@@ -1,7 +1,7 @@
 {
   "name": "walsh-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://itzwalsh.github.io/itzwalsh.github.io",
+  "homepage": "https://itzwalsh.github.io",
   "private": true,
   "dependencies": {
     "@programming-languages-logos/java": "^0.0.0",
