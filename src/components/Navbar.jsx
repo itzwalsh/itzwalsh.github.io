@@ -88,13 +88,13 @@ const Navbar = () => {
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" rel="noopener noreferrer" href="https://github.com/itzwalsh2521">
+                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" rel="noopener noreferrer" href="https://github.com/itzwalsh">
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6FC2B0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" rel="noopener noreferrer" href="mailto: itzwalsh@gmail.com">
+                    <a className='flex justify-between items-center w-full text-gray-300' target="_blank" rel="noopener noreferrer" href="mailto: zwalsh2521@gmail.com">
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
