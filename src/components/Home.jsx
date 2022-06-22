@@ -13,14 +13,14 @@ const Home = () => {
             <p className='text-[#8892B0] py-4 max-w-[700px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non vero similique nisi doloribus ratione voluptas aperiam atque impedit accusamus, debitis eius maxime explicabo sed velit animi.</p>
 
             <div>
+            <Link to="work" smooth={true} duration={500}>
                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600'>
-                    <Link to="work" smooth={true} duration={500}>
                         View Work
-                    </Link>
                     <span className='group-hover:rotate-90 duration-300'>
                         <HiArrowNarrowRight className='ml-3'/>
                     </span>
                 </button>
+                </Link>
             </div>
         </div>
     </div>
