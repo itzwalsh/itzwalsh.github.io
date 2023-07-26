@@ -34,7 +34,7 @@ export default {
         },
       },
       backgroundImage: {
-        "hero-gradient": "url('/src/assets/gray-gradient.png')",
+        "hero-gradient": "url('/gray-gradient.png')",
         "transparent-gradient":
           "linear-gradient(180deg, rgba(0,0,0,0), black);",
       },
