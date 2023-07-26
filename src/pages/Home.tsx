@@ -64,7 +64,7 @@ const Home = () => {
               className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
               htmlFor="TypeScript"
             >
-              <SiTypescript className="scale-150 hover:brightness-75 md:scale-[250%] lg:scale-[300%] " />
+              <SiTypescript className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%] " />
             </label>
 
             <input
@@ -81,7 +81,7 @@ const Home = () => {
               className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
               htmlFor="JavaScript"
             >
-              <SiJavascript className="scale-150 hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
+              <SiJavascript className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
             </label>
             <input
               type="radio"
@@ -97,7 +97,7 @@ const Home = () => {
               className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
               htmlFor="NextJS"
             >
-              <SiNextdotjs className="scale-150 hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
+              <SiNextdotjs className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
             </label>
 
             <input
@@ -114,7 +114,7 @@ const Home = () => {
               className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
               htmlFor="Python"
             >
-              <SiPython className="scale-150 hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
+              <SiPython className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
             </label>
 
             <input
@@ -131,7 +131,7 @@ const Home = () => {
               className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
               htmlFor="Java"
             >
-              <FaJava className="scale-150 hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
+              <FaJava className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
             </label>
           </div>
         </div>
