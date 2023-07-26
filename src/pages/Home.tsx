@@ -111,7 +111,7 @@ const Home = () => {
       <section id="about">
         <div className="mt-6 flex flex-col items-center justify-center space-y-3 pt-6">
           <img
-            src="src/assets/me.jpg"
+            src="/src/assets/me.jpg"
             alt="Zack Walsh"
             className="h-60 w-60 rounded-full object-cover ring-2 ring-lightorange"
           />
