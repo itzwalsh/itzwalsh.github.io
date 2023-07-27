@@ -223,8 +223,8 @@ const Home = () => {
             For the past 10 years, I have been learning, developing, and
             experimenting with many different languages such as Javascript,
             Python, and more. I have a keen eye for detail and a commitment to
-            delivering high-quality code. With a Bachelor’s of Science in
-            Software Development and Information Management, I’ve honed my
+            delivering high-quality code. With a Bachelor's of Science in
+            Software Development and Information Management, I've honed my
             skills in various programming languages and am always eager to
             expand my knowledge by learning new technologies/stacks. I thrive in
             fast-paced environments and take great pride in developing intuitive
