@@ -197,7 +197,11 @@ const Home = () => {
           <div className="flex flex-col items-center justify-center md:flex-row">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {courseData.map((course) => (
-                <CourseItem course={course} key={course.id} />
+                <CourseItem
+                  course={course}
+                  key={course.id}
+                  setFilters={setFilters}
+                />
               ))}
             </div>
           </div>
