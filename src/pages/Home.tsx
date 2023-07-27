@@ -15,6 +15,7 @@ import projectData from "../data/projectData"
 import courseData from "../data/courseData"
 import CourseItem from "../components/CourseItem"
 import { useState } from "react"
+import Resume from "./Resume"
 
 const Home = () => {
   const [filters, setFilters] = useState({
@@ -231,7 +232,7 @@ const Home = () => {
             and user-friendly solutions.
           </p>
           <button className="mt-12 inline-flex items-center rounded-md bg-gradient-to-r from-lightorange to-darkorange px-3 py-2 text-sm uppercase">
-            <a href="/resume">View My Resume</a>
+            <a href="#resume">View My Resume</a>
             <AiOutlineArrowRight className="ml-2" />
           </button>
         </div>
@@ -257,7 +258,7 @@ const Home = () => {
                   name="required"
                   id="name"
                   placeholder="John Doe"
-                  className="dark:bg-gray-700 w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange"
+                  className="w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange dark:bg-darkgray"
                 />
               </label>
             </div>
@@ -270,7 +271,7 @@ const Home = () => {
                   name="required"
                   id="name"
                   placeholder="John Doe"
-                  className="dark:bg-gray-700 w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange"
+                  className="w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange dark:bg-darkgray"
                 />
               </label>
             </div>
@@ -283,7 +284,7 @@ const Home = () => {
                   name="required"
                   id="name"
                   placeholder="John Doe"
-                  className="dark:bg-gray-700 w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange"
+                  className="w-full rounded-sm border bg-darkgray px-3 py-2 text-white placeholder-white placeholder-opacity-25 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-lightorange dark:bg-darkgray"
                 />
               </label>
             </div>
@@ -293,6 +294,11 @@ const Home = () => {
             </button>
           </form>
         </div>
+      </section>
+
+      {/* Resume */}
+      <section id="resume" className="my-16">
+        <Resume />
       </section>
 
       {/* sticky icon buttons */}
