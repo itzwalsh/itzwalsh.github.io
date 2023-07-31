@@ -148,7 +148,7 @@ const Home = () => {
                   className="mt-6 flex flex-col"
                   onClick={() => window.open(filteredProjects.link, "_blank")}
                 >
-                  <div className="flex h-full flex-col items-center justify-center">
+                  <div className="flex flex-col items-center justify-center">
                     {/* Start Project Block */}
                     <div className="2s relative m-2 h-full transition-all ease-in-out hover:scale-105">
                       <img

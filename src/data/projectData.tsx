@@ -22,10 +22,10 @@ const projectData = [
   },
   {
     id: 4,
-    title: "Runescape Tools (Coming Soon)",
-    stack: ["TypeScript", "Tailwind", "Prisma"],
-    image: "/runescape-tools.png",
-    link: "https://github.com/itzwalsh/runescape-tools",
+    title: "FreeScribe",
+    stack: ["TypeScript", "Vite", "React"],
+    image: "/freescribe.png",
+    link: "https://github.com/itzwalsh/freescribe",
   },
   {
     id: 5,
@@ -40,6 +40,13 @@ const projectData = [
     stack: ["Python"],
     image: "/gray-gradient.png",
     link: "https://github.com/itzwalsh/logviewer",
+  },
+  {
+    id: 7,
+    title: "Runescape Tools (Coming Soon)",
+    stack: ["TypeScript", "Tailwind", "Prisma"],
+    image: "/runescape-tools.png",
+    link: "https://github.com/itzwalsh/runescape-tools",
   },
 ]
 export default projectData
