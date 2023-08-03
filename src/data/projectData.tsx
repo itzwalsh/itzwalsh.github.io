@@ -25,7 +25,7 @@ const projectData = [
     title: "FreeScribe",
     stack: ["TypeScript", "Vite", "React"],
     image: "/freescribe.png",
-    link: "https://github.com/itzwalsh/freescribe",
+    link: "https://github.com/itzwalsh/free-scribe",
   },
   {
     id: 5,
