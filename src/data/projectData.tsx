@@ -4,22 +4,23 @@ const projectData = [
     title: "Bug Tracker",
     stack: ["JavaScript", "CSS", "Firebase"],
     image: "/bug-tracker.png",
-    link: "https://github.com/itzwalsh/bug-tracker",
+    link: "https://bug-tracker-72316.web.app/",
   },
   {
     id: 2,
-    title: "Spotify Desktop Clone",
-    stack: ["NextJS", "Tailwind", "APIs"],
-    image: "/spotify-clone.png",
-    link: "https://github.com/itzwalsh/spotify-clone",
+    title: "CS World",
+    stack: ["TypeScript", "NextJS", "TailwindCSS"],
+    image: "/csworld.jpeg",
+    link: "https://csworld-five.vercel.app/",
   },
   {
     id: 3,
-    title: "CS World",
-    stack: ["TypeScript", "MongoDB", "APIs"],
-    image: "/csworld.jpeg",
-    link: "https://github.com/itzwalsh/csworld",
+    title: "Spotify Desktop Clone",
+    stack: ["TypeScript", "NextJS", "APIs"],
+    image: "/spotify-clone.png",
+    link: "https://github.com/itzwalsh/spotify-clone",
   },
+
   {
     id: 4,
     title: "FreeScribe",
@@ -27,26 +28,27 @@ const projectData = [
     image: "/freescribe.png",
     link: "https://github.com/itzwalsh/free-scribe",
   },
+
   {
     id: 5,
+    title: "Runescape Tools (Coming Soon)",
+    stack: ["TypeScript", "Tailwind", "Prisma"],
+    image: "/runescape-tools.png",
+    link: "https://github.com/itzwalsh/runescape-tools",
+  },
+  {
+    id: 6,
     title: "Shopping List App",
     stack: ["Java", "Kotlin", "Android"],
     image: "/shoppinglist-app.png",
     link: "https://github.com/itzwalsh/shoppinglistproject",
   },
   {
-    id: 6,
+    id: 7,
     title: "Log File Viewer",
     stack: ["Python"],
     image: "/gray-gradient.png",
     link: "https://github.com/itzwalsh/logviewer",
-  },
-  {
-    id: 7,
-    title: "Runescape Tools (Coming Soon)",
-    stack: ["TypeScript", "Tailwind", "Prisma"],
-    image: "/runescape-tools.png",
-    link: "https://github.com/itzwalsh/runescape-tools",
   },
 ]
 export default projectData

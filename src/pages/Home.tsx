@@ -3,12 +3,7 @@ import {
   AiOutlineGithub,
   AiOutlineArrowRight,
 } from "react-icons/ai"
-import {
-  SiJavascript,
-  SiNextdotjs,
-  SiPython,
-  SiTypescript,
-} from "react-icons/si"
+import { SiJavascript, SiPython, SiTypescript } from "react-icons/si"
 import { FaJava, FaLinkedinIn } from "react-icons/fa"
 import TraitsCarousel from "../components/TraitsCarousel"
 import projectData from "../data/projectData"
@@ -83,22 +78,6 @@ const Home = () => {
               htmlFor="JavaScript"
             >
               <SiJavascript className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
-            </label>
-            <input
-              type="radio"
-              required
-              id="NextJS"
-              name="stack"
-              value="NextJS"
-              className="hidden"
-              checked={filters.stack === "NextJS"}
-              onChange={handleChange}
-            />
-            <label
-              className="flex aspect-square w-10 cursor-pointer items-center justify-center rounded-md"
-              htmlFor="NextJS"
-            >
-              <SiNextdotjs className="scale-[200%] hover:brightness-75 md:scale-[250%] lg:scale-[300%]" />
             </label>
 
             <input
