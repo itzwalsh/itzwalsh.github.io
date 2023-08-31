@@ -26,7 +26,7 @@ const projectData = [
     title: "FreeScribe",
     stack: ["TypeScript", "Vite", "React"],
     image: "/freescribe.png",
-    link: "https://github.com/itzwalsh/free-scribe",
+    link: "https://free-scribe.vercel.app/",
   },
 
   {
